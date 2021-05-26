@@ -1,0 +1,36 @@
+@import "reset";
+
+:root {
+	font-size: 15px;
+
+	--primary-bg-main: hsl(233, 47%, 7%);
+	--primary-bg-card: hsl(244, 38%, 16%);
+	--primary-accent: hsl(277, 64%, 61%);
+
+	--neutral-heading: hsl(0, 0%, 100%);
+	--neutral-para: hsla(0, 0%, 100%, 0.75);
+	--neutral-stats-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+html,
+body,
+#root,
+.App {
+	width: 100%;
+	height: 100%;
+}
+
+html,
+body {
+	background-color: var(--primary-bg-main);
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	@media screen and (orientation: portrait) {
+		display: initial;
+	}
+}
