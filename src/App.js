@@ -53,7 +53,7 @@ const CardContainer = styled.div`
 		grid-template-rows: auto auto;
 		max-width: 90%;
 		border-radius: 1vh;
-		margin: 2vh auto 0;
+		margin: 2vh auto;
 	}
 
 	> * {
